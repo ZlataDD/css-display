@@ -1,28 +1,22 @@
 <!DOCTYPE html>
 <html>
 
-<!-- 
-  TODO
-1. By changing only the display property of the CSS make all 3 squares line up horizontally like in goal1 image.
-2. Change only the display property to make all 3 squares line up vertically like in goal2 image. 
--->
-
 <head>
-  <title>CSS Display Property Example</title>
+  <title>CSS Display</title>
   <style>
     p {
       color: white;
     }
 
     .red {
-      display: block;
+      display: inline-block;
       width: 200px;
       height: 200px;
       background-color: red;
     }
 
     .green {
-      display: inline;
+      display: inline-block;
       width: 200px;
       height: 200px;
       background-color: green;
@@ -34,15 +28,75 @@
       height: 200px;
       background-color: blue;
     }
+
+    p {
+      color: white;
+    }
+
+    .red1 {
+      display: block;
+      width: 200px;
+      height: 200px;
+      background-color: red;
+    }
+
+    .green1 {
+      display: block;
+      width: 200px;
+      height: 200px;
+      background-color: green;
+    }
+
+    .blue1 {
+      display: block;
+      width: 200px;
+      height: 200px;
+      background-color: blue;
+    }
+ 
+    p {
+      color: white;
+    }
+
+    .red2 {
+      display: inline;
+      width: 200px;
+      height: 200px;
+      background-color: red;
+    }
+
+    .green2 {
+      display: inline;
+      width: 200px;
+      height: 200px;
+      background-color: green;
+    }
+
+    .blue2 {
+      display: inline;
+      width: 200px;
+      height: 200px;
+      background-color: blue;
+    }
   </style>
 </head>
 
-
 <body>
-  <h1>CSS Display Property</h1>
+  <h1>CSS Display inline-block</h1>
   <p class="red">Red Paragraph </p>
   <p class="green">Green Paragraph</p>
   <p class="blue">Blue Paragraph</p>
+
+  <h1>CSS Display block</h1>
+  <p class="red1">Red Paragraph </p>
+  <p class="green1">Green Paragraph</p>
+  <p class="blue1">Blue Paragraph</p>
+
+  <h1>CSS Display inline</h1>
+  <p class="red2">Red Paragraph </p>
+  <p class="green2">Green Paragraph</p>
+  <p class="blue2">Blue Paragraph</p>
+
 </body>
 
 </html>
